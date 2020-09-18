@@ -23,7 +23,7 @@ stages:
     steps:
     - task: Docker@2
       inputs:
-        containerRegistry: 'joshuainchilliwack-docker-hub'
+        containerRegistry: 'joshuachoi-docker-hub'
         repository: 'joshuainchilliwack/currency-exchange-devops'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
